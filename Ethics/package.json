@@ -1,0 +1,19 @@
+{
+  "name": "ethical-risk-assessment",
+  "version": "1.0.0",
+  "description": "Ethical Risk Assessment Framework for AI Tools",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["ethical-ai", "risk-assessment", "ml"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "xlsx": "^0.18.5",
+    "simple-statistics": "^7.8.3"
+  }
+}
